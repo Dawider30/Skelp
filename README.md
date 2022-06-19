@@ -1,1 +1,1 @@
-# Skelp
+# Sklep
