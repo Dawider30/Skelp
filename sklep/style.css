@@ -63,7 +63,16 @@ button:hover{
     background-color: #CCC9DC;
     transition: all .5s;
 }
-
+.kupowanie{
+    background-color: #CCC9DC;
+}
+.kupowanie input,select{
+    display: block;
+    margin:auto;
+}
+.blok{
+    display: inline-block;
+}
 
   
 
