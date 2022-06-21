@@ -65,6 +65,7 @@ button:hover{
 }
 .kupowanie{
     background-color: #CCC9DC;
+    display: none;
 }
 .kupowanie input,select{
     display: block;
@@ -73,9 +74,38 @@ button:hover{
 .blok{
     display: inline-block;
 }
-
-  
-
+input {
+    border:0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    border-radius:10px;
+  }
+input[type=submit]{
+    font-size: 1.3rem;
+    transition: all .5s;
+}
+input[type=submit]:hover{
+    font-size: 1.4rem;
+    background-color: #d2d0e1;
+    transition: all .5s;
+}
+footer{
+    width: 100%;
+    background-color: #eaeaea;
+    text-align: center;
+}
+ul{
+    list-style: none;
+    cursor: pointer;
+}
+.listTop{
+    margin-top: 15px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    cursor:default;
+}
+.lista li:hover{
+    color: #0093c8;
+}
 
   
 
